@@ -34,7 +34,7 @@
 ->Sample data and generate final VAE hidden data with file evaluating the DeepAR Model with 09gv_ATTN_Eval_slurm.py: <sbatch -a 0-139 run_09gv.sh> with model 09gv_ATTN_Eval_slurm.py in working directory. This will update in <data> folder with data.
 
 **Step 6**
-->Complete classificaiton analysis in python notebook: <classification_notebook.ipynb> 
+->Complete classificaiton analysis with classifier_analysis.py: <python classifier_analysis.py>. This will generate plots of classificaiton results in the working directory. 
 
 
 
