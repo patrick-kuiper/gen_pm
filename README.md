@@ -1,12 +1,14 @@
 **Considerations with this reduced data implementation**
 
-*-There are two vehicle data sets provided for demonstration purposes. The full data set was not provided due to the file size considerations. The analysis referenced in the paper was completed with 200 vehicles of data. With additional full data files in <vehicle_data/> and <random_list/> folders, the program will run as full implementation.*
+*-There is only one vehicle data set provided for demonstration purposes. The full data set was not provided due to the file size considerations. The analysis referenced in the paper was completed with 200 vehicles of data. With additional full data files in <vehicle_data/> and <random_list/> folders, the program will run as full implementation.*
 
 *-Folders will be created when training with models and data including: <data/>, <models_train/>, <model_train_ft_combined/>, <data/batch_gen_cf_oos140-200_true/>, and <vae_data/>*
 
 *-Implementation assumes SLURM and CUDA.* 
 
 *-See requirements.txt for software installation requirements.*
+
+**UNZIP Vehicle data in file <vehcle_data/>.**
 
 **Step 1: Run in parallel.**
 
